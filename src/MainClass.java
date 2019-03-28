@@ -37,7 +37,7 @@ public class MainClass {
         }
         System.out.println("Игра закончена");
     }
-
+// через циклы
     public static boolean checkWin(char symb){
         for (int i = 0; i < SIZE; i++) {
             if((map[i][0] == symb && map[i][1] == symb && map[i][2] == symb) ||
@@ -49,7 +49,7 @@ public class MainClass {
         }
         return false;
     }
-
+// через условия
 //    public static boolean checkWin(char symb) {
 //        if (map[0][0] == symb && map[0][1] == symb && map[0][2] == symb) return true;
 //        if (map[1][0] == symb && map[1][1] == symb && map[1][2] == symb) return true;
